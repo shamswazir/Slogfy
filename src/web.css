@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 190vh;
+    width: 100%;
+}
+
+.left{
+    background-color: antiquewhite;
+    float: left;  
+    width: 50%;
+}
+
+.right{
+
+    width: 50%;
+    float: right;
+    
+}
+
+.intro{
+    margin-top: 100px;
+    width: 75%;
+    margin-left: 10%;
+    height: 40vh;
+}
+
+.intro h1{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.intro p{
+    margin-top: 30px;
+}
+
+.twopart{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.firsticonPart{
+    width: 40%;
+}
+
+.secondiconPart{
+    margin-left: 20%;
+    width: 40%;
+}
+
+h3{
+    color: rgb(36, 36, 160);
+}
+
+.image3{
+    margin-top: 50px;
+}
+
+.image4{
+    margin-top: 70px;
+}
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 320vh;
+    }
+    .left{
+        width: 100%;
+        height: 80vh;
+    }
+    .right{
+        width:100%;
+        height: 320vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .intro h1{
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .intro{
+        margin-left: 20px;
+    }
+    .intro p{
+        font-size: medium;
+        font-weight: 700;
+    }
+    .twopart{
+        display: block;
+    }
+    .firsticonPart{
+        width: 100%;
+    }
+    .secondiconPart{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .image4{
+        margin-top: 50px;
+    }
+}
