@@ -1,0 +1,50 @@
+.videos > video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.videoContainer {
+  position: relative;
+  height: 100vh;
+}
+
+.hedding {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 34%;
+
+  text-align: center;
+  padding: 0px 198px;
+}
+
+.hedding > h1 {
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px 115px;
+  line-height: 68px;
+}
+
+.hedding > h1 > span {
+  margin: 0px 35px;
+  color: aqua;
+}
+
+.MuiButtonBase-root {
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  border: 1px solid white !important;
+
+  margin-top: 20px !important;
+}
+
+.MuiButtonBase-root:hover {
+  background-color: #33cbfd !important;
+}
+
+.MuiSvgIcon-root {
+  padding-right: 10px !important;
+  font-size: 35px !important;
+}
