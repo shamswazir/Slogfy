@@ -1,0 +1,29 @@
+.containerCTA {
+  background: url(../../images/banner1.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  position: relative;
+  height: 300px;
+}
+
+.containerCTA::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.text_Container {
+  text-align: center;
+}
+
+.text_Container > h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+}
