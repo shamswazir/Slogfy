@@ -8,27 +8,38 @@
   position: relative;
   height: 100vh;
 }
+.background_color {
+  background-color: rgba(5, 5, 5, 0.85);
+  height: 100vh;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  top: 0%;
+
+  width: 100%;
+  z-index: 1;
+}
 
 .hedding {
   position: absolute;
   z-index: 1;
-  color: white;
   top: 34%;
-
+  /* width: 100%; */
+  width: 513px;
   text-align: center;
-  padding: 0px 198px;
 }
 
 .hedding > h1 {
-  font-size: 60px;
+  font-size: 50px;
   margin: 0px;
+  color: #33cbfd;
   padding: 0px 115px;
-  line-height: 68px;
+  line-height: 65px;
 }
 
-.hedding > h1 > span {
-  margin: 0px 35px;
-  color: aqua;
+.hedding > h3 {
+  color: white;
+  font-size: 35px;
 }
 
 .MuiButtonBase-root {
@@ -47,4 +58,11 @@
 .MuiSvgIcon-root {
   padding-right: 10px !important;
   font-size: 35px !important;
+}
+
+.textContainer {
+  color: white;
+  position: absolute;
+  top: 141px;
+  left: 28%;
 }
