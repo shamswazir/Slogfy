@@ -1,18 +1,14 @@
 import React from 'react';
 import './App.css'
 //import {Route , Switch} from 'react-router-dom';
-import Navbar from './Component/Navbar/Navbar';
+import Whoweare from './Component/Whoweare';
+import Footer from './Component/Footer';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-     <Navbar/>
-     
-    {/*} <Switch>
-            <Route exact path='' component={} />
-            <Route exact path='' component={} />
-            
-        </Switch>*/}
+     <Whoweare/>
+     <Footer/>    
     </div>
   );
 }
