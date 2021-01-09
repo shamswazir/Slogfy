@@ -4,7 +4,7 @@ import './Whoweare.css';
 
 function Whoweare() {
     return (
-      <div className="container">
+      <div className="container-webexpert">
        <div className="row">
           <div className="left-content">
               <span>About us</span>
