@@ -17,11 +17,11 @@ function App() {
     <div className="App">
       <Navbar />
       <VideoSlider />
+      <Whoweare/>
       <DetailsPage />
       <ImageCard />
-
       <CalltoAction />
-
+      <Footer/>
       {/*} <Switch>
             <Route exact path='' component={} />
             <Route exact path='' component={} />
