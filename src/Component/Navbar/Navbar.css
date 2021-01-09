@@ -1,23 +1,26 @@
 .NavbarItems {
-  height: 80px;
   width: 100%;
   display: flex;
-  position: absolute;
   align-items: center;
-  font-size: 1.2rem;
-  z-index: 2;
+  justify-content: space-between;
+  background-color: rgba(8, 8, 8, 0.8);
+  height: 70px;
+  position: fixed;
+  z-index: 12;
+  width: 100%;
+  top: 0;
+  padding: 0px 38px;
 }
-.logo {
-  margin-left: 50px;
+.logo > img {
+  width: 200px;
 }
 
 .nav-menu {
-  display: flex;
   list-style: none;
-  text-align: center;
   width: 100%;
-  justify-content: flex-end;
-  margin-right: 2rem;
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
 }
 
 .nav-links {
@@ -40,6 +43,51 @@
 .menu-icon {
   display: none;
 }
+
+.rightSide {
+  width: 40%;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-dropdown-link {
+  color: white !important;
+}
+
+/* .ant-dropdown-link:hover {
+  color: white !important;
+  border: 2px solid white;
+  padding: 0px 6px;
+} */
+
+.text-iteam {
+  color: white;
+  width: 20%;
+}
+
+.text-iteam:hover {
+  border: 2px solid white;
+  /* padding: 0px 6px; */
+  margin: 0px;
+}
+
+.ant-dropdown-menu {
+  background-color: #121111 !important;
+}
+
+.ant-dropdown-menu-item > a {
+  color: white !important;
+}
+
+.ant-dropdown-menu-item > a:hover {
+  color: black !important;
+}
+/* .ant-dropdown {
+  left: 700.991px !important;
+  top: 56.9915px !important;
+} */
 
 @media screen and (max-width: 960px) {
   .NavbarItems {

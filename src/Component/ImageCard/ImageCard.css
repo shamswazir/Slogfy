@@ -1,0 +1,30 @@
+.makeStyles-root-3 {
+  max-width: 220px !important;
+}
+
+.MuiCardContent-root {
+  padding: 30px !important;
+}
+
+.MuiTypography-h5 {
+  font-size: 16px !important;
+  text-align: center;
+}
+
+.MuiTypography-colorTextSecondary {
+  line-height: 25px !important;
+  text-align: left !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.autor > img {
+  width: 40px;
+  border: 2px solid #633d01;
+  border-radius: 50%;
+  text-align: left !important;
+  display: inline-block;
+}
+.imageCardContaine {
+  margin: 30px;
+}

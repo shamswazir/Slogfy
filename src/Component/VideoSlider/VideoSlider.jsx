@@ -7,6 +7,8 @@ import CallIcon from "@material-ui/icons/Call";
 import "./VideoSlider.css";
 import video1 from "../../Assets/videos/video1.mp4";
 import video2 from "../../Assets/videos/video2.mp4";
+import video3 from "../../Assets/videos/video3.mp4";
+import video4 from "../../Assets/videos/video4.mp4";
 
 const fadeImages = [video1, "images/slide_6.jpg", "images/slide_7.jpg"];
 
@@ -29,23 +31,80 @@ const Slideshow = () => {
             <div className="each-fade">
               <div className="videos">
                 <video loop autoPlay muted src={video2}></video>
+                <div className="background_color"></div>
+                <div className="textContainer">
+                  <div className="hedding">
+                    <h1>Artificial Intelligence</h1>
+                    <h3>Making Life More Easier & Safe </h3>
+                    <Button size="medium" className="landingButton">
+                      DISCOVER MORE
+                    </Button>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="each-fade">
               <div className="videos">
                 <video loop autoPlay muted src={video1}></video>
+                <div className="background_color"></div>
+                <div className="textContainer">
+                  <div className="hedding">
+                    <h1>Internet Of Things</h1>
+                    <h3> Connecting Your world</h3>
+                    <Button size="medium" className="landingButton">
+                      DISCOVER MORE
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="videos">
+                <video loop autoPlay muted src={video3}></video>
+                <div className="background_color"></div>
+                <div className="textContainer">
+                  <div className="hedding">
+                    <h1>Web development</h1>
+                    <h3> Shaping Your Imagination</h3>
+                    <Button size="medium" className="landingButton">
+                      DISCOVER MORE
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="videos">
+                <video loop autoPlay muted src={video4}></video>
+                <div className="textContainer">
+                  <div className="background_color"></div>
+                  <div className="hedding">
+                    <h1>App Development</h1>
+                    <h3> Shaping Your Imagination </h3>
+                    <Button size="medium" className="landingButton">
+                      DISCOVER MORE
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="each-fade">
+              <div className="videos">
+                <video loop autoPlay muted src={video1}></video>
+                <div className="background_color"></div>
+                <div className="textContainer">
+                  <div className="hedding">
+                    <h1>Hardware prototyping</h1>
+                    <h3> Shaping Your Imagination</h3>
+                    <Button size="medium" className="landingButton">
+                      DISCOVER MORE
+                    </Button>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
         </div>
-      </div>
-      <div className="hedding">
-        <h1>
-          WE BRING <span>IMPACTFUL</span> DIGITAL SOLUTIONS
-        </h1>
-        <Button size="medium" className="landingButton">
-          <CallIcon /> SAY HELLO
-        </Button>
       </div>
     </div>
   );

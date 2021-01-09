@@ -1,22 +1,28 @@
-import React from 'react';
-import './App.css'
+import { CallToAction } from "@material-ui/icons";
+import React from "react";
+import "./App.css";
+import CalltoAction from "./Component/CtA/CalltoAction";
+import DetailsPage from "./Component/DetailsPage/DetailsPage";
+import ImageCard from "./Component/ImageCard/ImageCard";
 //import {Route , Switch} from 'react-router-dom';
-import Whoweare from './Component/Whoweare';
-import Footer from './Component/Footer';
-import Navbar from './Component/Navbar/Navbar';
-import VideoSlider from "./Component/VideoSlider/VideoSlider"
-import IntroPage from "./Component/IntroPage/IntroPage"
+import Navbar from "./Component/Navbar/Navbar";
+import VideoSlider from "./Component/VideoSlider/VideoSlider";
+import Whoweare from "./Component/Whoweare";
+import Footer from "./Component/Footer";
+
+import IntroPage from "./Component/IntroPage/IntroPage";
 
 function App() {
-  return ( 
+  return (
     <div className="App">
-     <Whoweare/>
-     <Footer/>    
-     <Navbar/>
-     <VideoSlider/>
-     <IntroPage/>
-     
-    {/*} <Switch>
+      <Navbar />
+      <VideoSlider />
+      <DetailsPage />
+      <ImageCard />
+
+      <CalltoAction />
+
+      {/*} <Switch>
             <Route exact path='' component={} />
             <Route exact path='' component={} />
             

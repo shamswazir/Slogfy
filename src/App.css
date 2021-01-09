@@ -1,5 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* 
+.react-multi-carousel-item {
+  width: 300px !important;
+} */
+.react-multi-carousel-item {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
 }
