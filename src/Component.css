@@ -1,95 +1,90 @@
-.component{
+.component {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.leftimg {
+  width: 60%;
+  display: flex;
+  height: 80vh;
+}
+
+.sizeofimage {
+  margin: auto;
+  width: 70%;
+}
+
+.rightintro {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 50px;
+}
+
+.rightintro h1 {
+  margin-top: 50px;
+  color: rgb(36, 36, 160);
+  justify-content: flex-start;
+}
+
+.rightintro p {
+  margin-top: 30px;
+  justify-content: flex-start;
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.component-webdev {
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.banner {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../../images/img55.jpg");
+  text-align: center;
+  height: 200vh;
+}
+
+.banner h1 {
+  color: white;
+  line-height: 60px;
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .component {
+    display: flex;
+    flex-direction: column-reverse;
     width: 100%;
-    height: 80vh;
-    display: flex;
-   
-}
-.leftimg{
-    width: 60%;
-    display: flex;
-    height: 80vh;
-}
-
-.sizeofimage{
-    margin:auto;
-    width: 70%;
-}
-
-.rightintro{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 50px;
-}
-
-.rightintro h1{
-   margin-top: 50px;
-   color: rgb(36, 36, 160);;
-   justify-content: flex-start;
-}
-
-.rightintro p{
-    margin-top: 30px;
-    justify-content: flex-start;
+    margin-top: 50px;
+    border: 1px solid black;
+  }
+  .leftimg {
+    width: 100%;
+    height: 40vh;
+  }
+  .leftimg img {
+    width: 80%;
+    height: 40vh;
+  }
+  .rightintro {
+    margin-left: 20px;
+    width: 80%;
+  }
+  .rightintro p {
     font-size: medium;
-    font-weight: lighter;
-    letter-spacing: 1px;
-}
-
-.component-webdev{
-    width: 100%;
-    height: 80vh;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.banner{
-    margin-top: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    background-image: url(images/web-banner-2.jpg);  
-    text-align: center; 
-    height: 200vh;
-    
-}
-
-.banner h1{
-    color: white;
-    line-height: 60px;
-    font-size: 55px;
-    font-weight:900;
-    margin-bottom: 50px;
-}
-
-@media screen and (max-width:767px) {
-    .component {
-      display: flex;
-      flex-direction:column-reverse;
-      width: 100%;
-      margin-top:50px;
-      border: 1px solid black;
-      
-    }
-    .leftimg{
-        width: 100%;
-        height: 40vh;
-    }
-    .leftimg img{
-        width: 80%;
-        height: 40vh;
-    }
-    .rightintro{
-        margin-left: 20px;
-        width: 80%;
-    }
-    .rightintro p{
-        font-size: medium;
-        font-weight: 700;
-        
-    }
-
+    font-weight: 700;
+  }
 }

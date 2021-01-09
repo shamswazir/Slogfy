@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo22.png";
 import { MenuItems } from "./MenuItems";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
