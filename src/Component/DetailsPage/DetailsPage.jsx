@@ -5,7 +5,7 @@ export default class DetailsPage extends Component {
   render() {
     return (
       <div className="count">
-        <div className="container">
+        <div className="countContainer">
           <div className="text-center">
             <h3>What we have achieved so far</h3>
             <p>

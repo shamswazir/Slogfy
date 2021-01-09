@@ -2,9 +2,10 @@ import React from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
+
 import CallIcon from "@material-ui/icons/Call";
 import "./VideoSlider.css";
+import Button from "../Button/Button";
 import video1 from "../../Assets/videos/video1.mp4";
 import video2 from "../../Assets/videos/video2.mp4";
 import video3 from "../../Assets/videos/video3.mp4";
@@ -36,9 +37,7 @@ const Slideshow = () => {
                   <div className="hedding">
                     <h1>Artificial Intelligence</h1>
                     <h3>Making Life More Easier & Safe </h3>
-                    <Button size="medium" className="landingButton">
-                      DISCOVER MORE
-                    </Button>
+                    <Button title="DISCOVER MORE" />
                   </div>
                 </div>
               </div>
@@ -51,9 +50,7 @@ const Slideshow = () => {
                   <div className="hedding">
                     <h1>Internet Of Things</h1>
                     <h3> Connecting Your world</h3>
-                    <Button size="medium" className="landingButton">
-                      DISCOVER MORE
-                    </Button>
+                    <Button title="DISCOVER MORE" />
                   </div>
                 </div>
               </div>
@@ -66,9 +63,7 @@ const Slideshow = () => {
                   <div className="hedding">
                     <h1>Web development</h1>
                     <h3> Shaping Your Imagination</h3>
-                    <Button size="medium" className="landingButton">
-                      DISCOVER MORE
-                    </Button>
+                    <Button title="DISCOVER MORE" />
                   </div>
                 </div>
               </div>
@@ -81,9 +76,7 @@ const Slideshow = () => {
                   <div className="hedding">
                     <h1>App Development</h1>
                     <h3> Shaping Your Imagination </h3>
-                    <Button size="medium" className="landingButton">
-                      DISCOVER MORE
-                    </Button>
+                    <Button title="DISCOVER MORE" />
                   </div>
                 </div>
               </div>
@@ -96,9 +89,7 @@ const Slideshow = () => {
                   <div className="hedding">
                     <h1>Hardware prototyping</h1>
                     <h3> Shaping Your Imagination</h3>
-                    <Button size="medium" className="landingButton">
-                      DISCOVER MORE
-                    </Button>
+                    <Button title="DISCOVER MORE" />
                   </div>
                 </div>
               </div>

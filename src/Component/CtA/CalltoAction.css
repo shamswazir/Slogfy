@@ -1,5 +1,5 @@
 .containerCTA {
-  background: url("../../images/img55.jpg") fixed center center;
+  background: url("../../Assets/Images/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
   position: relative;
@@ -25,5 +25,9 @@
   font-size: 50px;
   font-weight: 300;
   text-align: center;
+  position: relative;
+}
+
+.cTabtn {
   position: relative;
 }

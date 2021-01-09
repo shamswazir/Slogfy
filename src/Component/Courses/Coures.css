@@ -1,0 +1,47 @@
+.courseContainer {
+  padding: 50px;
+  background-color: black;
+}
+
+.coursebtn {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+.courseImage {
+  width: 60%;
+}
+
+.courseImage > img {
+  width: 100%;
+}
+.courseHedding {
+  color: white;
+  font-size: 20px;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.courseDetilsContainer {
+  display: flex;
+}
+
+.couresInfo {
+  text-align: left;
+  padding: 20px;
+  width: 35%;
+}
+.couresInfo > h1 {
+  color: white;
+  margin-top: 50px;
+}
+
+.couresInfo > p {
+  color: white;
+}

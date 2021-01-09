@@ -11,17 +11,20 @@ import Whoweare from "./Component/Whoweare";
 import Footer from "./Component/Footer";
 
 import IntroPage from "./Component/IntroPage/IntroPage";
+import Courses from "./Component/Courses/Courses";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <VideoSlider />
-      <Whoweare/>
+      <Whoweare />
+      <Courses />
       <DetailsPage />
       <ImageCard />
       <CalltoAction />
-      <Footer/>
+
+      <Footer />
       {/*} <Switch>
             <Route exact path='' component={} />
             <Route exact path='' component={} />
