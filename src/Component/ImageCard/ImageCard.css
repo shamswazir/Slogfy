@@ -33,3 +33,9 @@
 .MuiCardActions-root {
   padding: 0px !important;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+}

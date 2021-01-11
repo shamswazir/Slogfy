@@ -65,3 +65,10 @@
   font-size: 14px;
   color: #fff;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .counter {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}

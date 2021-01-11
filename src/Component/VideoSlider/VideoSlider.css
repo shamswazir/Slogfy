@@ -64,5 +64,39 @@
   color: white;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 29%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .textContainer {
+    color: white;
+    position: absolute;
+    top: 19%;
+    left: 15%;
+  }
+
+  .hedding {
+    width: 220px;
+    text-align: center;
+  }
+
+  .hedding > h1 {
+    font-size: 35px;
+
+    color: #33cbfd;
+    padding: 0px;
+    line-height: 46px;
+  }
+
+  .hedding > h3 {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
 }

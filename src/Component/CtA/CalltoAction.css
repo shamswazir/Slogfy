@@ -31,3 +31,17 @@
 .cTabtn {
   position: relative;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .containerCTA {
+    padding: 50px 0;
+  }
+
+  .text_Container > h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+  }
+}
