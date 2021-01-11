@@ -6,12 +6,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import CallIcon from "@material-ui/icons/Call";
 import "./VideoSlider.css";
 import Button from "../Button/Button";
-import video1 from "../../Assets/videos/video1.mp4";
-import video2 from "../../Assets/videos/video2.mp4";
 import video3 from "../../Assets/videos/video3.mp4";
 import video4 from "../../Assets/videos/video4.mp4";
 
-const fadeImages = [video1, "images/slide_6.jpg", "images/slide_7.jpg"];
+// const fadeImages = [video1, "images/slide_6.jpg", "images/slide_7.jpg"];
 
 const useStyles = makeStyles((theme) => ({
   margin: {
@@ -31,7 +29,7 @@ const Slideshow = () => {
           <Fade>
             <div className="each-fade">
               <div className="videos">
-                <video loop autoPlay muted src={video2}></video>
+                <video loop autoPlay muted src={video3}></video>
                 <div className="background_color"></div>
                 <div className="textContainer">
                   <div className="hedding">
@@ -44,7 +42,7 @@ const Slideshow = () => {
             </div>
             <div className="each-fade">
               <div className="videos">
-                <video loop autoPlay muted src={video1}></video>
+                <video loop autoPlay muted src={video3}></video>
                 <div className="background_color"></div>
                 <div className="textContainer">
                   <div className="hedding">
@@ -83,7 +81,7 @@ const Slideshow = () => {
             </div>
             <div className="each-fade">
               <div className="videos">
-                <video loop autoPlay muted src={video1}></video>
+                <video loop autoPlay muted src={video4}></video>
                 <div className="background_color"></div>
                 <div className="textContainer">
                   <div className="hedding">

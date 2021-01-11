@@ -26,5 +26,10 @@
   display: inline-block;
 }
 .imageCardContaine {
-  margin: 30px;
+  background-color: black;
+  padding: 70px 35px;
+}
+
+.MuiCardActions-root {
+  padding: 0px !important;
 }

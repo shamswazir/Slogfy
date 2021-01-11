@@ -48,7 +48,7 @@
   font-weight: 500 !important;
   border: 1px solid white !important;
 
-  margin-top: 20px !important;
+  /* margin-top: 20px !important; */
 }
 
 .MuiButtonBase-root:hover {
@@ -63,6 +63,6 @@
 .textContainer {
   color: white;
   position: absolute;
-  top: 141px;
-  left: 28%;
+  top: 30%;
+  left: 30%;
 }

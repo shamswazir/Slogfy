@@ -7,10 +7,11 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import cardImage from "../../images/logo22.png";
+import cardImage from "../../Assets/Images/courses-01.jpg";
+import author from "../../Assets/Images/author-01.png";
 import "./ImageCard.css";
-// import Carousel from "react-multi-carousel";
-// import "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -27,43 +28,44 @@ const useStyles = makeStyles({
 export default function ImageCard() {
   const classes = useStyles();
 
-  // const responsive = {
-  //   superLargeDesktop: {
-  //     // the naming can be any, depends on you.
-  //     breakpoint: { max: 4000, min: 3000 },
-  //     items: 6,
-  //   },
-  //   desktop: {
-  //     breakpoint: { max: 3000, min: 1024 },
-  //     items: 3,
-  //   },
-  //   tablet: {
-  //     breakpoint: { max: 1024, min: 464 },
-  //     items: 2,
-  //   },
-  //   mobile: {
-  //     breakpoint: { max: 464, min: 0 },
-  //     items: 1,
-  //   },
-  // };
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 6,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
   };
+
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   speed: 2000,
+  //   autoplaySpeed: 2000,
+  //   cssEase: "linear",
+  // };
   return (
     <div className="imageCardContaine">
-      <Slider {...settings}>
-        {/* <Carousel
+      {/* <Slider {...settings}> */}
+      <Carousel
         swipeable
         showDots
         infinite
+        autoPlay
         responsive={responsive}
         // means to render carousel on server-side.
         minimumTouchDrag
@@ -76,7 +78,7 @@ export default function ImageCard() {
         // deviceType={this.props.deviceType}
         dotListClass="custom-dot-list-style"
         // itemClass="carousel-item-padding-40-px"
-      > */}
+      >
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
@@ -93,7 +95,7 @@ export default function ImageCard() {
                 Unsplash, Pixabay, and Pexels.
               </Typography>
               <div className="autor">
-                <img src={cardImage} alt="" />
+                <img src={author} alt="" />
               </div>
             </CardContent>
           </CardActionArea>
@@ -165,8 +167,8 @@ export default function ImageCard() {
           </CardActionArea>
           <CardActions></CardActions>
         </Card>
-        {/* </Carousel> */}
-      </Slider>
+      </Carousel>
+      {/* </Slider> */}
     </div>
   );
 }
